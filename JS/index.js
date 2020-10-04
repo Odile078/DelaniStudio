@@ -108,5 +108,34 @@ $(document).ready(function(){
        
     );
 
+    //Validation of the form
+    $("form[name='Contactform']").validate({
+        //rules governing the inputs
+         rules: { 
+           pname: "required",
+           email: {
+             required: true,
+             email: true
+           },
+           msg:"required"
+         },
+         // validation error messages
+         messages: {
+           pname: "Please enter your firstname",
+           email: {
+               required: "Please, Fill this field",
+               email: "Your email address must be in the format of name@domain.com"
+             },
+           msg:"Please Enter your message",
+           success: "valid",
+           
+         },
+         
+         
+         submitHandler: function(form) {
+           form.submit(),alert(  " Thank you, your was message succefully sent!"); 
+         }
+       });
+
    
 });

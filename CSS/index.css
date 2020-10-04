@@ -1,0 +1,32 @@
+/*welcome styles*/
+.welcometxt{
+    text-align: center;
+}
+#welcome{
+    background: url("../Images/assets/backgrounds/h_img.jpg") no-repeat;
+    background-size: cover;
+    color:white;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.welcometxt p{
+    font-family:  'Playfair Display', serif;
+    font-weight: bold;
+}
+.scrolicon{
+    text-align: center;
+}
+.iconshake{
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+    0%, 15%, 40%, 60%, 100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-40px);
+    }
+    60% {
+        transform: translateY(-40px);
+    }
+}

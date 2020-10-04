@@ -161,3 +161,57 @@
 .footer{
     padding-top: 40px;
 }
+
+/*media queries*/
+@media screen and ( max-width:780px){
+    
+    
+    
+    .abouttxt p, .servicestxt p{
+        font-size: 26px;
+    }
+    #about {
+        margin: 40px 20px;
+      }
+    #welcome{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        
+    }
+    
+    
+
+
+}
+@media screen and ( max-width:600px){
+    .service-container{
+        margin: 20%;
+    }
+    #welcome{
+        padding:0px;
+        
+    }
+    .whatwedotxt p,.abouttext p, .welcometxt {
+        
+        font-size:15px;
+    }
+    .abouttxt p, .servicestxt p{
+        font-size: 16px;
+    }
+
+}
+@media screen and ( max-width:400px){
+    .whatwedotxt p,.abouttext p, .welcometxt p{
+        
+        font-size:10px;
+    }
+    #welcome,#about,#services,#whatwedo,#contact,.form{
+        padding:5px;
+        margin:0px;
+    }
+    .abouttxt p, .servicestxt p{
+        font-size: 13px;
+    }
+
+    
+}

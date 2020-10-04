@@ -11,7 +11,7 @@ This is a web program created using HTML, CSS,JS and jquery which describes serv
 With this website you can see some of example of where Jquery effects and events are and can be used. In addition you can see how to validate forms with jquery.
 
 ## Live Website
-()
+(https://odile078.github.io/DelaniStudio/)
 
 
 ## Installation / Setup instruction

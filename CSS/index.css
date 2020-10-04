@@ -157,3 +157,7 @@
   label.error {
     display: inline;
   }
+  /*footer*/
+.footer{
+    padding-top: 40px;
+}

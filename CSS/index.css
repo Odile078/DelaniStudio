@@ -122,3 +122,38 @@
 .card-title{
     font-family: 'Roboto Slab', serif;
 }
+
+
+/*contact*/
+#contact{
+    background: url("../Images/assets/backgrounds/c_image.jpg")no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    color:white;
+}
+.contacttxt{
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+}
+.form{
+    background-color: transparent;
+    color: white;
+    padding-top: 50px;
+    
+
+}
+.form-control{
+    background-color: transparent;
+    color: white;
+}
+
+
+.error {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  label.error {
+    display: inline;
+  }

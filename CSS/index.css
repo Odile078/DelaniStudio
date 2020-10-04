@@ -45,3 +45,38 @@
     font-weight: bold;
 }
 /*services*/
+#services{
+    background: url("../Images/assets/backgrounds/s_image.jpg")no-repeat;
+    background-size: cover;
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.servicestxt{
+    font-family: 'Piazzolla', serif;
+}
+.servicestxt h1{
+    font-weight: bold;
+}
+.design-desc{
+    display: none;
+    text-align: center;
+    padding:30px;
+    font-family: 'Peddana', serif;
+}
+.dev-desc{
+    display:none;
+    text-align: center;
+    padding:30px;
+    font-family: 'Peddana', serif;
+}
+.prod-desc{
+    display:none;
+    text-align: center;
+    padding:20px;
+    font-family: 'Peddana', serif;
+}
+#s1,#s2,#s3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

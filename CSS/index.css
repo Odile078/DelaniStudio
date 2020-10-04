@@ -30,3 +30,18 @@
         transform: translateY(-40px);
     }
 }
+/* about*/
+.centering{
+    text-align: center;
+}
+#about{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.abouttxt{
+    font-family: 'Piazzolla', serif;
+}
+.abouttxt h1{
+    font-weight: bold;
+}
+/*services*/

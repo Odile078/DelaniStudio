@@ -80,3 +80,20 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/*What we do*/
+#whatwedo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service_icon{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.service-container{
+    margin: 20px;
+}
+.whatwedotxt{
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+}

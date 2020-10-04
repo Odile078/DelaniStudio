@@ -97,3 +97,28 @@
     font-family: 'Piazzolla', serif;
     font-weight: bold;
 }
+
+/*portofolio*/
+
+.portofoliotxt{
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+}
+.card-body{
+    display: none;
+    padding: 0.25rem;
+    position:absolute;
+    top:80%;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+.card{
+    margin-top: 20px;
+    margin-bottom:30px;
+    margin-right:20px;
+}
+.card-title{
+    font-family: 'Roboto Slab', serif;
+}
